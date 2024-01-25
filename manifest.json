@@ -12,5 +12,10 @@
    "content_scripts": [ {
       "js": [ "scripts/content.js" ],
       "matches": [ "*://play.pokemonshowdown.com/*", "*://*.psim.us/*" ]
-   } ]
+   } ],
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "storage" ]
 }

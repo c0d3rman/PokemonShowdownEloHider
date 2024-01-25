@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><b>Pokemon Showdown Elo Hider</b> - Options page</title>
+
+  <style>
+    body {
+      padding: 1em 1em 2em;
+      position: relative;
+    }
+
+    label {
+      font-size: 13px;
+    }
+
+    .option-row {
+      display: block;
+      margin-bottom: 1.5em;
+    }
+
+    #status {
+      position: absolute;
+      bottom: .25em;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="option-row">
+    <input id="hideHoverElo" type="checkbox" name="hideHoverElo">
+    <label for="hideHoverElo">Hide the elo tooltip that shows up when you hide over a trainer sprite</label>
+  </div>
+  <button id="save">Save</button>
+  <div id="status"></div>
+
+  <script src="scripts/options.js"></script>
+</body>
+
+</html>
