@@ -1,7 +1,7 @@
 {
    "manifest_version": 3,
    "name": "Pokemon Showdown Elo Hider",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "description": "At the end of Pokemon Showdown battles, this extension hides your elo changes (and your opponent's) to reduce stress.",
    "icons": {
       "128": "images/icon-128.png",
