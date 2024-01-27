@@ -17,5 +17,10 @@
       "open_in_tab": false,
       "page": "options.html"
    },
-   "permissions": [ "storage" ]
+   "permissions": [ "storage" ],
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "pokemonshowdownelohider@pokemonshowdownelohider.com"
+      }
+   }
 }

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    chrome.storage.sync.get({
+    browser.storage.sync.get({
         hideHoverElo: true,
     }, (items) => {
         document.getElementById('hideHoverElo').checked = items.hideHoverElo;
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.getElementById('save').addEventListener('click', () => {
-    chrome.storage.sync.set({
+    browser.storage.sync.set({
         hideHoverElo: document.getElementById('hideHoverElo').checked,
     }, () => {
         // Update status to let user know options were saved.

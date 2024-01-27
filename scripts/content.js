@@ -1,6 +1,6 @@
-chrome.storage.sync.get({
+browser.storage.sync.get({
     hideHoverElo: true,
-}, options => {
+}).then(options => {
     const observer = new MutationObserver(mutations => {
         mutations.forEach(mutation => {
             if (mutation.addedNodes?.length > 0) {
